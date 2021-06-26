@@ -25,7 +25,7 @@ import java.io.File
 import java.io.IOException
 
 /**
- * Created by Stardust on 2018/1/24.
+ *
  */
 
 open class AssetsProjectLauncher(private val mAssetsProjectDir: String, private val mActivity: Context) {

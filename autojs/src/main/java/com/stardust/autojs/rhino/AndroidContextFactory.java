@@ -1,15 +1,13 @@
 package com.stardust.autojs.rhino;
 
-
 import com.stardust.autojs.runtime.exception.ScriptInterruptedException;
-
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.tools.shell.ShellContextFactory;
-
 import java.io.File;
+import static org.mozilla.javascript.Context.FEATURE_ENABLE_XML_SECURE_PARSING;
 
 /**
- * Created by Stardust on 2017/4/5.
+ *
  */
 
 public class AndroidContextFactory extends ShellContextFactory {
@@ -50,5 +48,12 @@ public class AndroidContextFactory extends ShellContextFactory {
         return cx;
     }
 
-
+    // idea  这里使用xml xml严格模式是否开启
+    protected boolean hasFeature(Context cx,int featureIndex){
+        if(featureIndex==FEATURE_ENABLE_XML_SECURE_PARSING){
+            return false;
+        }else{
+            return super.hasFeature(cx,featureIndex);
+        }
+    }
 }

@@ -1,5 +1,4 @@
 package org.autojs.autojs.ui.widget
-
 import android.graphics.drawable.Drawable
 import android.view.View
 import com.bumptech.glide.request.target.CustomViewTarget

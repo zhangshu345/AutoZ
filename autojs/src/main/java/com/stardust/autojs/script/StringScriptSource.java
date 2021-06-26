@@ -1,12 +1,10 @@
 package com.stardust.autojs.script;
-
-
 import androidx.annotation.Nullable;
 
 import java.io.Reader;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public class StringScriptSource extends JavaScriptSource {

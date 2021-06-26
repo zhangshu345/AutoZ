@@ -19,7 +19,7 @@ import com.stardust.util.ArrayUtils;
 import com.stardust.util.UiHandler;
 
 /**
- * Created by Stardust on 2017/5/8.
+ *
  */
 
 public class Dialogs {

@@ -1,5 +1,4 @@
 package com.stardust.autojs.engine
-
 import android.util.Log
 import android.view.View
 import com.stardust.autojs.core.ui.ViewExtras
@@ -24,7 +23,7 @@ import java.util.*
 import java.util.concurrent.ConcurrentHashMap
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 open class RhinoJavaScriptEngine(private val mAndroidContext: android.content.Context) : JavaScriptEngine() {
@@ -33,7 +32,10 @@ open class RhinoJavaScriptEngine(private val mAndroidContext: android.content.Co
     private val mScriptable: TopLevelScope
     lateinit var thread: Thread
         private set
-
+    init {
+        this.context = enterContext()
+        mScriptable = createScope(this.context)
+    }
     private val initScript: Script
         get() {
             return sInitScript ?: {
@@ -51,10 +53,7 @@ open class RhinoJavaScriptEngine(private val mAndroidContext: android.content.Co
     val scriptable: Scriptable
         get() = mScriptable
 
-    init {
-        this.context = enterContext()
-        mScriptable = createScope(this.context)
-    }
+
 
     override fun put(name: String, value: Any?) {
         ScriptableObject.putProperty(mScriptable, name, Context.javaToJS(value, mScriptable))

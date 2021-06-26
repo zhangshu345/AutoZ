@@ -22,8 +22,6 @@ public class AutoXKeepLiveService implements KeepLiveService {
            }
     }
 
-
-
     @Override
     public void onStop() {
         Log.d(TAG, "onStop: ----");

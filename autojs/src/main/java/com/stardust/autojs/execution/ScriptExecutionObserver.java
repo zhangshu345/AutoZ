@@ -3,7 +3,7 @@ package com.stardust.autojs.execution;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
- * Created by Stardust on 2017/5/3.
+ *
  */
 
 public class ScriptExecutionObserver implements ScriptExecutionListener {

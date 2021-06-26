@@ -1,6 +1,4 @@
 package com.stardust.autojs.core.ui.inflater.inflaters;
-
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import android.view.ViewGroup;
@@ -17,7 +15,7 @@ import com.stardust.autojs.core.ui.widget.JsSpinner;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public class SpinnerInflater extends BaseViewInflater<JsSpinner> {

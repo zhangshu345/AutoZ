@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.WeakHashMap;
 
 /**
- * Created by Stardust on 2017/4/30.
+ *
  */
 
 public class ThreadCompat extends Thread {

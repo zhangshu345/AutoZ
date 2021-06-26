@@ -125,6 +125,7 @@ open class AccessibilityService : android.accessibilityservice.AccessibilityServ
         private val LOCK = ReentrantLock()
         private val ENABLED = LOCK.newCondition()
         var instance: AccessibilityService? = null
+            get
             private set
         val stickOnKeyObserver = OnKeyListener.Observer()
         private var containsAllEventTypes = false

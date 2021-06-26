@@ -1,7 +1,7 @@
 package com.stardust.concurrent;
 
 /**
- * Created by Stardust on 2017/12/27.
+
  */
 
 public class Value<T> {

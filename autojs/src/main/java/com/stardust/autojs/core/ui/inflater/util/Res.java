@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 
 /**
- * Created by Stardust on 2017/11/5.
+ *
  */
 
 public class Res {

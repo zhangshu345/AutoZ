@@ -15,7 +15,7 @@ import android.widget.FrameLayout;
 import org.autojs.autojs.R;
 
 /**
- * Created by Stardust on 2017/1/24.
+ *
  */
 
 public class SlidingUpPanel extends FrameLayout {

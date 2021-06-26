@@ -21,7 +21,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Stardust on 2017/11/3.
+ *
  */
 
 public class Drawables {

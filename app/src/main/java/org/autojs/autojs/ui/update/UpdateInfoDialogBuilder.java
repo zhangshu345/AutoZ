@@ -31,7 +31,7 @@ import java.io.File;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 
 /**
- * Created by Stardust on 2017/4/9.
+ *
  */
 
 public class UpdateInfoDialogBuilder extends MaterialDialog.Builder {

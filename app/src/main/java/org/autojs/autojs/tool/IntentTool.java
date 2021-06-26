@@ -7,7 +7,7 @@ import org.autojs.autojs.R;
 import com.stardust.util.IntentUtil;
 
 /**
- * Created by Stardust on 2017/4/12.
+ *
  */
 
 public class IntentTool {

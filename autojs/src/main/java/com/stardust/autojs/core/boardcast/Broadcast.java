@@ -1,9 +1,8 @@
 package com.stardust.autojs.core.boardcast;
-
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * Created by Stardust on 2018/4/1.
+ *
  */
 
 public class Broadcast {

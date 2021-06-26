@@ -360,7 +360,7 @@ public class BuildActivity extends BaseActivity implements ApkBuilder.ProgressCa
 //            new ThemeColorMaterialDialogBuilder(this)
 //                    .title(R.string.text_invalid_project_config)
 //                    .positiveText(R.string.ok)
-//                    .dismissListener(dialogInterface -> finish())
+//                    .dismissListener(dialogInterface -> finish())checkApkBuilderPlugin
 //                    .show();
 //            return false;
             mProjectConfig = new ProjectConfig();

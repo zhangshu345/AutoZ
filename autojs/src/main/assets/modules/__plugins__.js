@@ -7,6 +7,5 @@ module.exports = function (runtime, scope) {
         var index = require(plugin.mainScriptPath);
         return index(plugin.unwrap());
     }
-
     return plugins;
 }

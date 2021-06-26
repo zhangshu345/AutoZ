@@ -1,5 +1,4 @@
 package com.stardust.autojs.core.console;
-
 import com.stardust.util.UiHandler;
 
 import org.apache.log4j.Level;
@@ -12,7 +11,7 @@ import java.util.Locale;
 
 
 /**
- * Created by Stardust on 2017/10/22.
+ *.
  */
 
 public class GlobalConsole extends ConsoleImpl {

@@ -17,7 +17,7 @@ import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.util.UiHandler;
 
 /**
- * Created by Stardust on 2018/4/17.
+
  */
 
 public class JsDialogBuilder extends MaterialDialog.Builder {

@@ -19,7 +19,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Created by Stardust on 2017/4/1.
+ *
  */
 
 public class InjectableWebClient extends WebViewClient {

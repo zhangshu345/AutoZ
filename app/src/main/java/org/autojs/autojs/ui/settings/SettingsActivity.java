@@ -30,7 +30,7 @@ import de.psdev.licensesdialog.LicensesDialog;
 import de.psdev.licensesdialog.licenses.License;
 
 /**
- * Created by Stardust on 2017/2/2.
+ *
  */
 @EActivity(R.layout.activity_settings)
 public class SettingsActivity extends BaseActivity {

@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Stardust on 2017/4/5.
+ *
  */
 
 public class RhinoAndroidHelper {

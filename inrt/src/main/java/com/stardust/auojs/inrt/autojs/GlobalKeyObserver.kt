@@ -11,7 +11,7 @@ import com.stardust.view.accessibility.AccessibilityService
 import com.stardust.view.accessibility.OnKeyListener
 
 /**
- * Created by Stardust on 2017/8/14.
+ *
  */
 
 class GlobalKeyObserver internal constructor() : OnKeyListener, ShellKeyObserver.KeyListener {

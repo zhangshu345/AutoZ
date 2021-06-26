@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/4/1.
+ *
  */
 
 public class PReadableTextFile implements Closeable, PFileInterface {

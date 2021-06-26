@@ -19,7 +19,7 @@ import java.net.URLConnection;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/5/9.
+ *
  */
 
 public class AssetAndUrlModuleSourceProvider extends UrlModuleSourceProvider {

@@ -26,7 +26,7 @@ import com.stardust.autojs.script.ScriptSource;
 import org.mozilla.javascript.ContinuationPending;
 
 /**
- * Created by Stardust on 2017/2/5.
+
  */
 
 public class ScriptExecuteActivity extends AppCompatActivity {

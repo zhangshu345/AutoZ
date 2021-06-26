@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 /**
- * Created by Stardust on 2017/11/3.
+ *
  */
 
 public interface ImageLoader {

@@ -1,5 +1,4 @@
 package com.stardust.autojs.core.ui.inflater;
-
 import java.util.HashMap;
 
 public class InflateContext {

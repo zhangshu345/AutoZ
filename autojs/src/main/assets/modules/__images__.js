@@ -1,4 +1,3 @@
-
 module.exports = function (runtime, scope) {
     const ResultAdapter = require("result_adapter");
 

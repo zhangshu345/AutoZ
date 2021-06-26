@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
- * Created by Stardust on 2017/9/30.
+ *
  */
 
 public class ExplorerItemList {

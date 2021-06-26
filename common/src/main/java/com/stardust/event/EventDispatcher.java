@@ -3,7 +3,7 @@ package com.stardust.event;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * Created by Stardust on 2017/8/6.
+ *
  */
 
 public class EventDispatcher<Listener> {

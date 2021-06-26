@@ -1,19 +1,17 @@
 package com.stardust.autojs.runtime.api;
 
 import androidx.annotation.NonNull;
-
 import com.stardust.autojs.core.looper.MainThreadProxy;
 import com.stardust.autojs.core.looper.TimerThread;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.concurrent.VolatileDispose;
-
 import java.util.HashSet;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by Stardust on 2017/12/3.
+ *
  */
 
 public class Threads {

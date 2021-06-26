@@ -6,20 +6,18 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import androidx.annotation.NonNull;
-
 import com.stardust.autojs.core.eventloop.EventEmitter;
 import com.stardust.autojs.core.looper.Loopers;
 import com.stardust.autojs.runtime.ScriptBridges;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.util.MapBuilder;
-
 import java.lang.reflect.Field;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by Stardust on 2018/2/5.
+ *
  */
 
 public class Sensors extends EventEmitter implements Loopers.LooperQuitHandler {

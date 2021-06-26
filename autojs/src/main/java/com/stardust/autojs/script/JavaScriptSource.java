@@ -4,10 +4,8 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
 import com.stardust.autojs.rhino.TokenStream;
 import com.stardust.util.MapBuilder;
-
 import org.mozilla.javascript.Token;
 
 import java.io.Reader;
@@ -15,7 +13,7 @@ import java.io.StringReader;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/8/2.
+ *
  */
 
 public abstract class JavaScriptSource extends ScriptSource {

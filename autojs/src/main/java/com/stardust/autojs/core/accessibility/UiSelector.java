@@ -57,7 +57,7 @@ import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.Acces
 import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat.ACTION_SHOW_ON_SCREEN;
 
 /**
- * Created by Stardust on 2017/3/9.
+ *
  */
 
 public class UiSelector extends UiGlobalSelector {

@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 /**
- * Created by Stardust on 2017/3/5.
+ *
  */
 
 public class ImageSelector implements OnActivityResultDelegate {

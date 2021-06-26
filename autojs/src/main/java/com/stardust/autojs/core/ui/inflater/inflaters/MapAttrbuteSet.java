@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/5.
+ *
  */
 
 public class MapAttrbuteSet implements AttributeSet {

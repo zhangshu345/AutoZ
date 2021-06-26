@@ -2,7 +2,6 @@ package com.stardust.autojs;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
-
 import com.stardust.autojs.engine.JavaScriptEngine;
 import com.stardust.autojs.engine.ScriptEngine;
 import com.stardust.autojs.engine.ScriptEngineManager;
@@ -21,10 +20,8 @@ import com.stardust.autojs.script.JavaScriptSource;
 import com.stardust.autojs.script.ScriptSource;
 import com.stardust.lang.ThreadCompat;
 import com.stardust.util.UiHandler;
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
-
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -33,7 +30,7 @@ import java.util.Set;
 import static com.stardust.autojs.runtime.exception.ScriptInterruptedException.causedByInterrupted;
 
 /**
- * Created by Stardust on 2017/1/23.
+ *
  */
 
 public class ScriptEngineService {
@@ -83,7 +80,6 @@ public class ScriptEngineService {
                 EVENT_BUS.post(new ScriptExecutionEvent(ScriptExecutionEvent.ON_EXCEPTION, message));
             }
         }
-
     };
 
 
@@ -184,7 +180,6 @@ public class ScriptEngineService {
     public int stopAll() {
         return mScriptEngineManager.stopAll();
     }
-
 
     public void stopAllAndToast() {
         int n = stopAll();

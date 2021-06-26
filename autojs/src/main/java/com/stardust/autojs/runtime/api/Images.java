@@ -49,7 +49,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/5/20.
+ *
  */
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class Images {

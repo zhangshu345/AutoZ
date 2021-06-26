@@ -1,15 +1,13 @@
 package com.stardust.autojs.core.ui.inflater.inflaters;
-
 import androidx.annotation.Nullable;
 import android.view.View;
 import android.widget.TimePicker;
-
 import com.stardust.autojs.R;
 import com.stardust.autojs.core.ui.inflater.ResourceParser;
 import com.stardust.autojs.core.ui.inflater.ViewCreator;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public class TimePickerInflater extends BaseViewInflater<TimePicker> {

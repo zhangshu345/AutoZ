@@ -41,7 +41,7 @@ import static org.autojs.autojs.model.script.Scripts.EXTRA_EXCEPTION_MESSAGE;
 
 
 /**
- * Created by Stardust on 2017/4/29.
+ *
  */
 public class ViewSampleActivity extends AppCompatActivity implements OnActivityResultDelegate.DelegateHost {
 

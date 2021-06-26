@@ -4,7 +4,7 @@ import org.mozilla.javascript.NativeJavaObject;
 import org.mozilla.javascript.Scriptable;
 
 /**
- * Created by Stardust on 2018/4/4.
+ *
  */
 
 public class NativeJavaObjectWithPrototype extends NativeJavaObject {

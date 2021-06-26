@@ -13,7 +13,7 @@ import java.util.List;
 import static com.stardust.pio.PFiles.DEFAULT_BUFFER_SIZE;
 
 /**
- * Created by Stardust on 2017/4/1.
+ *
  */
 
 public class PWritableTextFile implements Closeable, PFileInterface {

@@ -1,5 +1,4 @@
 package com.stardust.app;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
@@ -10,7 +9,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Created by Stardust on 2017/8/4.
+
  */
 
 public class DialogUtils {

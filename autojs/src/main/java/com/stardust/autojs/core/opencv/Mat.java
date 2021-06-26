@@ -14,10 +14,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Mat extends org.opencv.core.Mat implements ResourceMonitor.Resource {
 
     private static Method nClone;
-
+    public static Method nOnes;
     static {
         try {
             nClone = org.opencv.core.Mat.class.getDeclaredMethod("n_clone", long.class);
+            nClone.setAccessible(true);
+            Class[] r1=new Class[3];
+            Class cls=Integer.TYPE;
+            r1[0]=cls;
+            r1[1]=cls;
+            r1[2]=cls;
+            nClone = org.opencv.core.Mat.class.getDeclaredMethod("n_ones", r1);
             nClone.setAccessible(true);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
@@ -76,6 +83,20 @@ public class Mat extends org.opencv.core.Mat implements ResourceMonitor.Resource
     @Override
     public Mat clone() {
         return new Mat(n_clone(this.nativeObj));
+    }
+
+
+
+    public static Mat ones(int i, int i2, int i3) {
+        return new Mat(((Long) invokeMethod(nOnes, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3))).longValue());
+    }
+
+    public static <T> T invokeMethod(Method method, Object... objArr) {
+        try {
+            return (T) method.invoke(null, objArr);
+        } catch (Throwable e) {
+            throw new RuntimeException(e);
+        }
     }
 
     protected long n_clone(long addr) {

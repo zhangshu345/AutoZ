@@ -8,7 +8,7 @@ import org.mozilla.javascript.Scriptable;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by Stardust on 2018/4/4.
+
  */
 
 public class NativeJavaClassWithPrototype extends NativeJavaClass {

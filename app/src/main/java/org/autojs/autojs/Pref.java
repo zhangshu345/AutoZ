@@ -16,7 +16,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Stardust on 2017/1/31.
+ *
  */
 public class Pref {
 

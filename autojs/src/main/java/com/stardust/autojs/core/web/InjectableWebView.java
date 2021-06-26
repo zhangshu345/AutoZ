@@ -10,7 +10,7 @@ import com.stardust.autojs.annotation.ScriptInterface;
 import org.mozilla.javascript.Scriptable;
 
 /**
- * Created by Stardust on 2017/4/1.
+ *
  */
 @ScriptClass
 public class InjectableWebView extends WebView {

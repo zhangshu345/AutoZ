@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2018/3/29.
+ *
  */
 
 public interface LayoutInflaterDelegate {

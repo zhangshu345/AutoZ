@@ -12,13 +12,14 @@ import android.view.WindowManager;
 
 import com.stardust.autojs.R;
 import com.stardust.autojs.annotation.ScriptInterface;
+import com.stardust.autojs.core.floaty.FloatyService;
+import com.stardust.autojs.core.floaty.ResizableExpandableFloatyWindow;
 import com.stardust.autojs.runtime.ScriptRuntime;
 import com.stardust.autojs.runtime.api.AbstractConsole;
 import com.stardust.autojs.runtime.api.Console;
 import com.stardust.autojs.runtime.exception.ScriptInterruptedException;
 import com.stardust.autojs.util.FloatingPermission;
-import com.stardust.enhancedfloaty.FloatyService;
-import com.stardust.enhancedfloaty.ResizableExpandableFloatyWindow;
+
 import com.stardust.util.UiHandler;
 import com.stardust.util.ViewUtil;
 
@@ -29,7 +30,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by Stardust on 2017/5/2.
+ *
  */
 
 public class ConsoleImpl extends AbstractConsole {

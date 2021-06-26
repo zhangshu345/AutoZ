@@ -14,7 +14,7 @@ import com.stardust.autojs.runtime.ScriptRuntime;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2018/3/30.
+ *
  */
 
 public class JsGridViewInflater<V extends JsGridView> extends JsListViewInflater<V> {

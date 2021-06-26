@@ -12,7 +12,7 @@ import com.stardust.autojs.core.ui.inflater.util.Dimensions;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public class ProgressBarInflater<V extends ProgressBar> extends BaseViewInflater<V> {

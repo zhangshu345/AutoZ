@@ -12,7 +12,7 @@ import com.stardust.util.MimeTypes;
 import java.io.IOException;
 
 /**
- * Created by Stardust on 2018/2/12.
+ *
  */
 
 public class Media implements MediaScannerConnection.MediaScannerConnectionClient {

@@ -6,7 +6,7 @@ import com.stardust.autojs.project.ScriptConfig
 import java.util.*
 
 /**
- * Created by Stardust on 2017/2/1.
+
  */
 data class ExecutionConfig(var workingDirectory: String = "",
                            var path: Array<out String> = emptyArray(),

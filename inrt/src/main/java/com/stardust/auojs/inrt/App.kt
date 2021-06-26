@@ -30,7 +30,7 @@ import com.stardust.autojs.core.ui.inflater.util.Drawables
 
 
 /**
- * Created by Stardust on 2017/7/1.
+ *
  */
 
 class App : Application() {

@@ -18,7 +18,7 @@ import com.stardust.view.accessibility.AccessibilityServiceUtils
 
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 class AutoJs private constructor(application: Application) : com.stardust.autojs.AutoJs(application) {

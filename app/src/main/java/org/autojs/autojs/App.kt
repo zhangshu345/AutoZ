@@ -14,7 +14,6 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
 import com.evernote.android.job.JobRequest
-import com.flurry.android.FlurryAgent
 import com.squareup.leakcanary.LeakCanary
 import com.stardust.app.GlobalAppContext
 import com.stardust.autojs.core.ui.inflater.ImageLoader
@@ -34,7 +33,7 @@ import java.lang.ref.WeakReference
 import java.util.*
 
 /**
- * Created by Stardust on 2017/1/27.
+ *
  */
 
 class App : MultiDexApplication() {
@@ -53,9 +52,7 @@ class App : MultiDexApplication() {
     private fun setUpStaticsTool() {
         if (BuildConfig.DEBUG)
             return
-        FlurryAgent.Builder()
-                .withLogEnabled(BuildConfig.DEBUG)
-                .build(this, "D42MH48ZN4PJC5TKNYZD")
+
     }
 
     private fun setUpDebugEnvironment() {

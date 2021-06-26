@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/3/5.
+ *
  */
 
 public interface OnActivityResultDelegate {

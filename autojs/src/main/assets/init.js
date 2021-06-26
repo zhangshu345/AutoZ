@@ -76,7 +76,7 @@ runtime.init();
 
     importClass(android.view.KeyEvent);
     importClass(com.stardust.autojs.core.util.Shell);
-    importClass(android.graphics.Paint);
+    importClass(com.stardust.autojs.core.graphics.Paint)
     Canvas = com.stardust.autojs.core.graphics.ScriptCanvas;
     Image = com.stardust.autojs.core.image.ImageWrapper;
 

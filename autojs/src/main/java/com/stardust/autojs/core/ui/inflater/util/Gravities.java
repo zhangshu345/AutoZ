@@ -3,7 +3,7 @@ package com.stardust.autojs.core.ui.inflater.util;
 import android.view.Gravity;
 
 /**
- * Created by Stardust on 2017/11/3.
+ *
  */
 
 public class Gravities {

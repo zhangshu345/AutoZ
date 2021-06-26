@@ -2,7 +2,8 @@ package org.autojs.autojs.ui.floating;
 
 import android.view.View;
 
-import com.stardust.enhancedfloaty.FloatyService;
+import com.stardust.autojs.core.floaty.FloatyService;
+
 
 public interface CircularMenuFloaty {
 

@@ -11,7 +11,7 @@ import com.stardust.lang.ThreadCompat;
 import org.mozilla.javascript.ContinuationPending;
 
 /**
- * Created by Stardust on 2017/5/1.
+
  */
 
 public class RunnableScriptExecution extends ScriptExecution.AbstractScriptExecution implements Runnable {

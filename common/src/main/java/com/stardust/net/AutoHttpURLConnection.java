@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Created by Stardust on 2017/4/10.
+ *
  */
 
 public class AutoHttpURLConnection extends HttpURLConnection implements AutoCloseable {

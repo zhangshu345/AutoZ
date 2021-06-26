@@ -41,7 +41,7 @@ import org.mozilla.javascript.WrappedException;
 import java.io.File;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public abstract class AutoJs {

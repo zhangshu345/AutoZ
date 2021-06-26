@@ -8,9 +8,9 @@ import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.stardust.enhancedfloaty.FloatyService;
-import com.stardust.enhancedfloaty.FloatyWindow;
-import com.stardust.enhancedfloaty.WindowBridge;
+import com.stardust.autojs.core.floaty.FloatyService;
+import com.stardust.autojs.core.floaty.FloatyWindow;
+import com.stardust.autojs.core.floaty.WindowBridge;
 import com.stardust.util.ScreenMetrics;
 
 import org.autojs.autojs.ui.floating.gesture.BounceDragGesture;

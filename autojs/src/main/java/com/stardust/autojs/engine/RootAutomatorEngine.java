@@ -20,7 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Stardust on 2017/8/1.
+ *
  */
 
 public class RootAutomatorEngine extends ScriptEngine.AbstractScriptEngine<AutoFileSource> {

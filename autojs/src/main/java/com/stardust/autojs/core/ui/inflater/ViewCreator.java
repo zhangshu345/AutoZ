@@ -6,7 +6,7 @@ import android.view.View;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public interface ViewCreator<V extends View> {

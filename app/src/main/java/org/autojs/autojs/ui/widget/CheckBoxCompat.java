@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.widget.CompoundButton;
 
 /**
- * Created by Stardust on 2017/10/19.
+ *
  */
 
 public class CheckBoxCompat extends AppCompatCheckBox {

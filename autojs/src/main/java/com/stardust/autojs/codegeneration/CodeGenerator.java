@@ -7,7 +7,7 @@ import com.stardust.automator.UiObject;
 import com.stardust.view.accessibility.NodeInfo;
 
 /**
- * Created by Stardust on 2017/12/7.
+ *
  */
 
 public class CodeGenerator {

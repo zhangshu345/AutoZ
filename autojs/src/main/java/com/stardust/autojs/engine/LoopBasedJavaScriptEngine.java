@@ -15,7 +15,7 @@ import com.stardust.util.Callback;
 import org.mozilla.javascript.ContinuationPending;
 
 /**
- * Created by Stardust on 2017/7/28.
+ *
  */
 
 public class LoopBasedJavaScriptEngine extends RhinoJavaScriptEngine {

@@ -11,9 +11,10 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.makeramen.roundedimageview.RoundedImageView;
 import com.stardust.app.DialogUtils;
 import com.stardust.app.OperationDialogBuilder;
+import com.stardust.autojs.core.floaty.FloatyService;
+import com.stardust.autojs.core.floaty.FloatyWindow;
 import com.stardust.autojs.core.record.Recorder;
-import com.stardust.enhancedfloaty.FloatyService;
-import com.stardust.enhancedfloaty.FloatyWindow;
+
 
 import org.autojs.autojs.Pref;
 import org.autojs.autojs.R;
@@ -46,7 +47,7 @@ import butterknife.OnClick;
 import butterknife.Optional;
 
 /**
- * Created by Stardust on 2017/10/18.
+ *
  */
 
 public class CircularMenu implements Recorder.OnStateChangedListener, LayoutInspector.CaptureAvailableListener {

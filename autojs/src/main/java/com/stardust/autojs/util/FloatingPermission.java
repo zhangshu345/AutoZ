@@ -14,7 +14,8 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.stardust.autojs.R;
-import com.stardust.enhancedfloaty.util.FloatingWindowPermissionUtil;
+
+
 
 import java.lang.reflect.Method;
 import java.util.regex.Matcher;
@@ -23,12 +24,13 @@ import java.util.regex.Pattern;
 import ezy.assist.compat.RomUtil;
 import ezy.assist.compat.SettingsCompat;
 
+import static com.stardust.util.IntentUtil.goToAppDetailSettings;
+
 /**
- * Created by Stardust on 2018/1/30.
+ *
  */
 
 public class FloatingPermission {
-
 
     private static final int OP_SYSTEM_ALERT_WINDOW = 24;
     private static Method sCheckOp;
@@ -90,7 +92,7 @@ public class FloatingPermission {
                 SettingsCompat.manageDrawOverlays(context);
             }
         } catch (Exception ex) {
-            FloatingWindowPermissionUtil.goToAppDetailSettings(context, context.getPackageName());
+            goToAppDetailSettings(context, context.getPackageName());
         }
     }
 

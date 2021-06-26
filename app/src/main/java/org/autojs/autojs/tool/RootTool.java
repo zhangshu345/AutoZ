@@ -4,7 +4,7 @@ import com.stardust.autojs.core.util.ProcessShell;
 import com.stericson.RootShell.RootShell;
 
 /**
- * Created by Stardust on 2018/1/26.
+ *
  */
 
 public class RootTool {

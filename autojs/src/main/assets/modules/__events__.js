@@ -1,4 +1,3 @@
-
 module.exports = function(__runtime__, scope){
     importClass(android.view.KeyEvent);
     var events = Object.create(__runtime__.events);

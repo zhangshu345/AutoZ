@@ -85,7 +85,7 @@ import static org.autojs.autojs.model.script.Scripts.EXTRA_EXCEPTION_LINE_NUMBER
 import static org.autojs.autojs.model.script.Scripts.EXTRA_EXCEPTION_MESSAGE;
 
 /**
- * Created by Stardust on 2017/9/28.
+ *
  */
 @EViewGroup(R.layout.editor_view)
 public class EditorView extends FrameLayout implements CodeCompletionBar.OnHintClickListener, FunctionsKeyboardView.ClickCallback, ToolbarFragment.OnMenuItemClickListener {

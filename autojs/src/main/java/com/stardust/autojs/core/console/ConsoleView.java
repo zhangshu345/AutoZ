@@ -1,5 +1,4 @@
 package com.stardust.autojs.core.console;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import androidx.annotation.Nullable;
@@ -19,18 +18,19 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.stardust.enhancedfloaty.ResizableExpandableFloatyWindow;
+
 import com.stardust.autojs.R;
+import com.stardust.autojs.core.floaty.ResizableExpandableFloatyWindow;
 import com.stardust.util.MapBuilder;
 import com.stardust.util.SparseArrayEntries;
-import com.stardust.util.ViewUtil;
+
 import com.stardust.util.ViewUtils;
 
 import java.util.ArrayList;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/5/2.
+ *
  * <p>
  * TODO: 优化为无锁形式
  */

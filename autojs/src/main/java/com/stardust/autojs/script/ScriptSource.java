@@ -1,9 +1,8 @@
 package com.stardust.autojs.script;
-
 import java.io.Serializable;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public abstract class ScriptSource implements Serializable {

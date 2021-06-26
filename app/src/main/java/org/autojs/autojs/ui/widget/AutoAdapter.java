@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/8/19.
+ *
  */
 
 public class AutoAdapter<DT> extends RecyclerView.Adapter<BindableViewHolder<DT>> {

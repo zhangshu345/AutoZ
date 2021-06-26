@@ -1,4 +1,3 @@
-
 var bridges = {};
 
 bridges.call = function (func, target, args) {

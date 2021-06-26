@@ -1,4 +1,3 @@
-
 module.exports = function(__runtime__, scope){
     var dialogs =  {};
 

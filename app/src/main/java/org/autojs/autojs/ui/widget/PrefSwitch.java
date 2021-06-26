@@ -14,7 +14,7 @@ import com.stardust.theme.ThemeColorMutable;
 import org.autojs.autojs.R;
 
 /**
- * Created by Stardust on 2017/8/6.
+ *
  */
 
 public class PrefSwitch extends SwitchCompat implements SharedPreferences.OnSharedPreferenceChangeListener, ThemeColorMutable {

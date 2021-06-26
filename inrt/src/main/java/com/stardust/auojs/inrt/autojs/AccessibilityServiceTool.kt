@@ -11,7 +11,7 @@ import com.stardust.view.accessibility.AccessibilityServiceUtils.isAccessibility
 import java.util.*
 
 /**
- * Created by Stardust on 2017/7/1.
+ *
  */
 
 object AccessibilityServiceTool {

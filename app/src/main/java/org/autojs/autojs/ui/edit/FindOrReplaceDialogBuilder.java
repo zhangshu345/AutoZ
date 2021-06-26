@@ -20,7 +20,7 @@ import butterknife.OnCheckedChanged;
 import butterknife.OnTextChanged;
 
 /**
- * Created by Stardust on 2017/9/28.
+ *
  */
 
 public class FindOrReplaceDialogBuilder extends ThemeColorMaterialDialogBuilder {

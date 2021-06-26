@@ -1,5 +1,3 @@
-
-
 module.exports = function(__runtime__, scope){
 
     scope.SetScreenMetrics = function(w, h){

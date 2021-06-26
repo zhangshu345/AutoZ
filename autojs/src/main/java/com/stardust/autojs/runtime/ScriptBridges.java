@@ -6,7 +6,6 @@ package com.stardust.autojs.runtime;
 
 public class ScriptBridges {
 
-
     public interface Bridges {
 
         Object[] NO_ARGUMENTS = new Object[0];
@@ -39,7 +38,6 @@ public class ScriptBridges {
         if (mBridges == null)
             throw new IllegalStateException("no bridges set");
     }
-
 
     public Object toArray(Iterable c) {
         checkBridges();

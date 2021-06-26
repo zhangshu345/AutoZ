@@ -165,8 +165,11 @@
     <string name="text_root_record_out_file_type">Root录制生成文件类型</string>
     <string name="text_binary">binary</string>
     <string name="key_stable_mode">key_stable_mode</string>
+    <string name="summary_gesture_observing">开启动作监听模式可以获取实时触摸状态</string>
+    <string name="key_gesture_observing">key_gesture_observing</string>
     <string name="summary_stable_mode">开启后布局分析更稳定，但小部分脚本可能无法正常运行。重启无障碍服务生效</string>
     <string name="text_stable_mode">稳定模式</string>
+    <string name="text_gesture_observing_mode">手势监听模式</string>
     <string name="key_enable_observe_key">key_enable_observe_key</string>
     <string name="text_directory">文件夹</string>
     <string name="text_file">文件</string>

@@ -14,7 +14,7 @@ import android.view.ViewTreeObserver;
 import android.view.Window;
 
 /**
- * Created by Stardust on 2017/8/22.
+ *
  */
 
 public class AppWithStatusBarLayout extends AppBarLayout {

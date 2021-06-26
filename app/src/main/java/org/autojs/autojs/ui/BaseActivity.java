@@ -14,22 +14,18 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
-
 import com.stardust.app.GlobalAppContext;
 import com.stardust.theme.ThemeColorManager;
-
 import org.autojs.autojs.Pref;
 import org.autojs.autojs.R;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 import static android.content.pm.PackageManager.PERMISSION_DENIED;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
 /**
- * Created by Stardust on 2017/1/23.
+ *
  */
 
 public abstract class BaseActivity extends AppCompatActivity {

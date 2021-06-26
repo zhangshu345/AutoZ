@@ -21,12 +21,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Created by Stardust on 2017/4/12.
+ *
  */
 
 public class JsBeautifier {
-
-
     public interface Callback {
 
         void onSuccess(String beautifiedCode);

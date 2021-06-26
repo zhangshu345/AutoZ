@@ -15,7 +15,7 @@ import org.autojs.autojs.R;
 import org.autojs.autojs.model.autocomplete.CodeCompletions;
 
 /**
- * Created by Stardust on 2017/2/17.
+ *
  */
 
 public class CodeCompletionBar extends RecyclerView {

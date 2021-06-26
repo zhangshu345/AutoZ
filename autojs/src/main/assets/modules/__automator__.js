@@ -1,4 +1,3 @@
-
 module.exports = function(runtime, global){
     var automator = {};
 

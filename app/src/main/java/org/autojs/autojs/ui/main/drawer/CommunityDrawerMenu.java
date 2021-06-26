@@ -20,7 +20,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by Stardust on 2017/12/10.
+ *
  */
 @SuppressLint("CheckResult")
 public class CommunityDrawerMenu {

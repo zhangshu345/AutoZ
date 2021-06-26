@@ -1,7 +1,7 @@
 package com.stardust.autojs.execution;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public class SimpleScriptExecutionListener implements ScriptExecutionListener {

@@ -1,4 +1,3 @@
-
 module.exports = function (runtime, scope) {
     var rtConsole = runtime.console;
     var console = {};

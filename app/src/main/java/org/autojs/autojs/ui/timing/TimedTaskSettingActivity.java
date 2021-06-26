@@ -63,7 +63,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/28.
+ *
  */
 @EActivity(R.layout.activity_timed_task_setting)
 public class TimedTaskSettingActivity extends BaseActivity {

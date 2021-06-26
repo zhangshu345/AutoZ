@@ -22,7 +22,7 @@ import org.commonmark.renderer.html.HtmlRenderer;
 import java.util.Collections;
 
 /**
- * Created by Stardust on 2017/3/5.
+ *
  */
 
 public class CommonMarkdownView extends WebView {

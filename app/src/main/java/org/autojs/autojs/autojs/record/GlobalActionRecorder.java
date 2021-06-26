@@ -22,7 +22,7 @@ import com.stardust.util.ClipboardUtil;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * Created by Stardust on 2017/8/6.
+ *
  */
 
 public class GlobalActionRecorder implements Recorder.OnStateChangedListener {

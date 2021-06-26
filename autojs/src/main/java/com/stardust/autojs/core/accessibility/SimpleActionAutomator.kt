@@ -19,7 +19,7 @@ import com.stardust.util.DeveloperUtils
 import com.stardust.util.ScreenMetrics
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 class SimpleActionAutomator(private val mAccessibilityBridge: AccessibilityBridge, private val mScriptRuntime: ScriptRuntime) {

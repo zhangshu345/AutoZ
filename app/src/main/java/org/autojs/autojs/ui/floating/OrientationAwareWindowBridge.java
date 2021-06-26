@@ -2,11 +2,11 @@ package org.autojs.autojs.ui.floating;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.stardust.enhancedfloaty.WindowBridge;
+import com.stardust.autojs.core.floaty.WindowBridge;
+
 
 public class OrientationAwareWindowBridge extends WindowBridge.DefaultImpl {
 

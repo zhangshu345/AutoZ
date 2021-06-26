@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.stardust.util.ViewUtil;
 
 /**
- * Created by Stardust on 2017/1/30.
+ *
  */
 
 public abstract class Fragment extends androidx.fragment.app.Fragment {

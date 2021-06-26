@@ -24,7 +24,7 @@ import io.reactivex.Observable;
 import io.reactivex.subjects.PublishSubject;
 
 /**
- * Created by Stardust on 2017/10/19.
+ *
  */
 
 public class FileChooserDialogBuilder extends ThemeColorMaterialDialogBuilder {

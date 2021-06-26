@@ -4,8 +4,8 @@ import android.graphics.PixelFormat;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.stardust.enhancedfloaty.FloatyService;
-import com.stardust.enhancedfloaty.FloatyWindow;
+import com.stardust.autojs.core.floaty.FloatyWindow;
+
 
 /**
  * Created by Stardust on 2017/10/18.

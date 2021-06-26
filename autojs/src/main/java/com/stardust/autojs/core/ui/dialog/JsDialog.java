@@ -286,7 +286,8 @@ public class JsDialog {
 
     @Deprecated
     public void setMessage(CharSequence message) {
-        mDialog.setMessage(message);
+
+        mDialog.setContent(message);
     }
 
     @Nullable

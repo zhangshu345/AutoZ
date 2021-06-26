@@ -40,7 +40,7 @@ import java.util.List;
 import ezy.assist.compat.SettingsCompat;
 
 /**
- * Created by Stardust on 2017/12/2.
+ *
  */
 
 public class Device {

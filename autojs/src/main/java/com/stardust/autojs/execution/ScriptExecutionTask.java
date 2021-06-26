@@ -5,7 +5,7 @@ import com.stardust.autojs.script.ScriptSource;
 import java.io.Serializable;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public class ScriptExecutionTask implements Serializable {

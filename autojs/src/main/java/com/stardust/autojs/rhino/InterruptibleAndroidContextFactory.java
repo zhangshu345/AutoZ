@@ -2,11 +2,8 @@ package com.stardust.autojs.rhino;
 
 import android.os.Looper;
 import android.util.Log;
-
 import com.stardust.autojs.runtime.exception.ScriptInterruptedException;
-
 import org.mozilla.javascript.Context;
-
 import java.io.File;
 import java.util.concurrent.atomic.AtomicInteger;
 

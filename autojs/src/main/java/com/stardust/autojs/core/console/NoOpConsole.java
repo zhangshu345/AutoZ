@@ -1,11 +1,10 @@
 package com.stardust.autojs.core.console;
 
 import androidx.annotation.Nullable;
-
 import com.stardust.autojs.runtime.api.Console;
 
 /**
- * Created by Stardust on 2017/9/21.
+ *
  */
 
 public class NoOpConsole implements Console {

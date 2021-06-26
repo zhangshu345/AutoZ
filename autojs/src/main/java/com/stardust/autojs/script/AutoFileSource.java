@@ -1,11 +1,9 @@
 package com.stardust.autojs.script;
-
 import com.stardust.pio.PFiles;
-
 import java.io.File;
 
 /**
- * Created by Stardust on 2017/8/2.
+ *
  */
 
 public class AutoFileSource extends ScriptSource {

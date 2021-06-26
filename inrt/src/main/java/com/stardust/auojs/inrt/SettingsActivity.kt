@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar
 
 
 /**
- * Created by Stardust on 2017/12/8.
+ *
  */
 
 class SettingsActivity : AppCompatActivity() {

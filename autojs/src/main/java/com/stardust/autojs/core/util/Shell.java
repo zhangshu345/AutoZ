@@ -18,7 +18,7 @@ import jackpal.androidterm.emulatorview.TermSession;
 import jackpal.androidterm.util.TermSettings;
 
 /**
- * Created by Stardust on 2017/4/24.
+ *
  */
 
 public class Shell extends AbstractShell {

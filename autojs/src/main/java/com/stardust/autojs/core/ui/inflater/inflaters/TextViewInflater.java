@@ -25,7 +25,7 @@ import com.stardust.autojs.core.ui.inflater.util.ValueMapper;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/3.
+ *
  */
 
 public class TextViewInflater<V extends TextView> extends BaseViewInflater<V> {

@@ -9,7 +9,7 @@ import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.ui.main.MainActivity_;
 
 /**
- * Created by Stardust on 2017/7/7.
+
  */
 public class SplashActivity extends BaseActivity {
 

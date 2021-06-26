@@ -9,7 +9,7 @@ import com.stardust.autojs.core.ui.inflater.util.Ids;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2017/11/29.
+ *
  */
 
 public class RadioGroupInflater<V extends RadioGroup> extends LinearLayoutInflater<V> {

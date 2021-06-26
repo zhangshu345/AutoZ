@@ -1,4 +1,3 @@
-
 module.exports = function(__runtime__, scope){
 
     var __selector__ = __runtime__.selector();

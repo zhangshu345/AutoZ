@@ -5,10 +5,11 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
 
-import com.stardust.enhancedfloaty.WindowBridge;
+import com.stardust.autojs.core.floaty.WindowBridge;
+
 
 /**
- * Created by Stardust on 2017/9/26.
+ *
  */
 
 public class BounceDragGesture extends DragGesture {

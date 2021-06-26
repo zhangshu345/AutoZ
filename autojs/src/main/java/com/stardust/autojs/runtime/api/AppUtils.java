@@ -18,7 +18,7 @@ import java.lang.ref.WeakReference;
 import java.util.List;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public class AppUtils {
@@ -47,7 +47,6 @@ public class AppUtils {
         } catch (Exception e) {
             return false;
         }
-
     }
 
     @ScriptInterface

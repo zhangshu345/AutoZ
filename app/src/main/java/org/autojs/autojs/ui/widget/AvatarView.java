@@ -25,7 +25,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by 婷 on 2017/9/29.
+ *
  */
 
 public class AvatarView extends FrameLayout {

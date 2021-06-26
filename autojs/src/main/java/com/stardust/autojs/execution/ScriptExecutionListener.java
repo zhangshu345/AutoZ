@@ -3,7 +3,7 @@ package com.stardust.autojs.execution;
 import java.io.Serializable;
 
 /**
- * Created by Stardust on 2017/4/2.
+ *
  */
 
 public interface ScriptExecutionListener extends Serializable {

@@ -1,15 +1,13 @@
 package com.stardust.autojs.codegeneration;
-
 import android.graphics.Rect;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
-
 import com.stardust.automator.UiObject;
 import com.stardust.view.accessibility.NodeInfo;
 
 /**
- * Created by Stardust on 2017/11/5.
+ *
  */
 
 public class ReadOnlyUiObject extends UiObject {

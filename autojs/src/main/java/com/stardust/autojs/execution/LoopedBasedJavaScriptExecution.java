@@ -7,7 +7,7 @@ import com.stardust.autojs.core.looper.Loopers;
 import com.stardust.autojs.script.JavaScriptSource;
 
 /**
- * Created by Stardust on 2017/10/27.
+
  */
 
 public class LoopedBasedJavaScriptExecution extends RunnableScriptExecution {

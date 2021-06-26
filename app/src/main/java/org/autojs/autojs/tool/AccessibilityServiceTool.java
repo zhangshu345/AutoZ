@@ -15,7 +15,7 @@ import com.stardust.view.accessibility.AccessibilityServiceUtils;
 import java.util.Locale;
 
 /**
- * Created by Stardust on 2017/1/26.
+ *
  */
 
 public class AccessibilityServiceTool {

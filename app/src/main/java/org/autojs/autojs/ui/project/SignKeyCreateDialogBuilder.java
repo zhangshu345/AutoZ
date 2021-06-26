@@ -13,7 +13,6 @@ import androidx.appcompat.widget.AppCompatEditText;
 
 import com.google.android.material.textfield.TextInputLayout;
 import com.stardust.autojs.core.image.Colors;
-import com.stardust.autojs.runtime.api.Files;
 import com.stardust.pio.PFile;
 import com.stardust.pio.PFiles;
 
@@ -21,12 +20,9 @@ import org.autojs.autojs.Pref;
 import org.autojs.autojs.R;
 import org.autojs.autojs.build.ApkSigner;
 
-import com.afollestad.materialdialogs.MaterialDialog;
+
 
 import org.autojs.autojs.theme.dialog.ThemeColorMaterialDialogBuilder;
-import org.autojs.autojs.ui.filechooser.FileChooserDialogBuilder;
-
-import java.util.regex.Pattern;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

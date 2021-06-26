@@ -8,7 +8,7 @@ import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by Stardust on 2017/4/3.
+ *
  */
 
 public interface ScriptExecution {

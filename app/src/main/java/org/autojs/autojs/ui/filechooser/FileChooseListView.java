@@ -34,7 +34,7 @@ import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 
 /**
- * Created by Stardust on 2017/10/19.
+ *
  */
 
 public class FileChooseListView extends ExplorerView {

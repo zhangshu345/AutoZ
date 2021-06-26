@@ -16,7 +16,7 @@ import org.w3c.dom.NodeList;
 import java.util.Map;
 
 /**
- * Created by Stardust on 2018/3/28.
+ *
  */
 
 public class JsListViewInflater<V extends JsListView> extends BaseViewInflater<V> {

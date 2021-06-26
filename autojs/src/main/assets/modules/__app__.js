@@ -1,4 +1,3 @@
-
 module.exports = function (runtime, global) {
     importClass(android.content.Intent);
     var app = Object.create(runtime.app);

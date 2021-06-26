@@ -1,4 +1,3 @@
-
 module.exports = function(__runtime__, scope){
     var fs = __runtime__.files;
     var files = Object.create(fs);

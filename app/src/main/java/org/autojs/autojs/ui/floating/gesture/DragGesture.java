@@ -6,10 +6,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.stardust.enhancedfloaty.WindowBridge;
+import com.stardust.autojs.core.floaty.WindowBridge;
+
 
 /**
- * Created by Stardust on 2017/4/18.
+ *
  */
 
 public class DragGesture extends GestureDetector.SimpleOnGestureListener {

@@ -6,7 +6,7 @@ import java.io.File;
 import java.net.URI;
 
 /**
- * Created by Stardust on 2017/8/19.
+ *
  */
 
 public class EFile extends File {

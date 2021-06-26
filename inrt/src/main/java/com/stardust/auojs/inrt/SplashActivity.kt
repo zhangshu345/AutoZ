@@ -24,7 +24,7 @@ import ezy.assist.compat.SettingsCompat
 import java.util.*
 
 /**
- * Created by Stardust on 2018/2/2.
+ *
  */
 
 class SplashActivity : AppCompatActivity() {

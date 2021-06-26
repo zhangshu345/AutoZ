@@ -9,12 +9,13 @@ import android.view.ViewGroup;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;
 import com.stardust.app.DialogUtils;
-import com.stardust.enhancedfloaty.FloatyService;
+
 import org.autojs.autojs.R;
 import org.autojs.autojs.ui.codegeneration.CodeGenerateDialog;
 import org.autojs.autojs.ui.floating.FloatyWindowManger;
 import org.autojs.autojs.ui.floating.FullScreenFloatyWindow;
 
+import com.stardust.autojs.core.floaty.FloatyService;
 import com.stardust.view.accessibility.NodeInfo;
 import org.autojs.autojs.ui.widget.BubblePopupMenu;
 

@@ -1,5 +1,4 @@
 package com.stardust.autojs.rhino
-
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.ContextFactory
 import org.mozilla.javascript.ContinuationPending

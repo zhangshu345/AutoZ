@@ -31,7 +31,7 @@ import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 
 /**
- * Created by Stardust on 2017/9/28.
+ *
  */
 
 @SuppressLint("CheckResult")

@@ -47,7 +47,7 @@ import static org.autojs.autojs.ui.edit.EditorView.EXTRA_PATH;
 import static org.autojs.autojs.ui.edit.EditorView.EXTRA_READ_ONLY;
 
 /**
- * Created by Stardust on 2017/1/29.
+ *
  */
 @EActivity(R.layout.activity_edit)
 public class EditActivity extends BaseActivity implements OnActivityResultDelegate.DelegateHost, PermissionRequestProxyActivity {

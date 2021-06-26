@@ -16,8 +16,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.TimePicker;
+import android.widget.ToggleButton;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.stardust.autojs.core.ui.inflater.inflaters.AppBarInflater;
@@ -29,9 +31,11 @@ import com.stardust.autojs.core.ui.inflater.inflaters.LinearLayoutInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.ProgressBarInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.RadioGroupInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.SpinnerInflater;
+import com.stardust.autojs.core.ui.inflater.inflaters.SwitchInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.TabLayoutInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.TextViewInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.TimePickerInflater;
+import com.stardust.autojs.core.ui.inflater.inflaters.ToggleButtonInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.ToolbarInflater;
 import com.stardust.autojs.core.ui.inflater.inflaters.ViewGroupInflater;
 import com.stardust.autojs.core.ui.inflater.util.Res;
@@ -39,12 +43,10 @@ import com.stardust.autojs.core.ui.widget.JsSpinner;
 import com.stardust.autojs.core.ui.widget.JsTabLayout;
 import com.stardust.autojs.core.ui.widget.JsToolbar;
 import com.stardust.autojs.core.ui.xml.XmlConverter;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-
 import java.io.ByteArrayInputStream;
 import java.util.HashMap;
 import java.util.Map;
@@ -121,6 +123,8 @@ public class DynamicLayoutInflater {
         registerViewAttrSetter(FrameLayout.class.getName(), new FrameLayoutInflater<>(mResourceParser));
         registerViewAttrSetter(View.class.getName(), new BaseViewInflater<>(mResourceParser));
         registerViewAttrSetter(JsToolbar.class.getName(), new ToolbarInflater<>(mResourceParser));
+        registerViewAttrSetter(Switch.class.getName(), new SwitchInflater(mResourceParser));
+        registerViewAttrSetter(ToggleButton.class.getName(), new ToggleButtonInflater(mResourceParser));
         registerViewAttrSetter(DatePicker.class.getName(), new DatePickerInflater(mResourceParser));
         registerViewAttrSetter(RadioGroup.class.getName(), new RadioGroupInflater<>(mResourceParser));
         registerViewAttrSetter(ProgressBar.class.getName(), new ProgressBarInflater<>(mResourceParser));

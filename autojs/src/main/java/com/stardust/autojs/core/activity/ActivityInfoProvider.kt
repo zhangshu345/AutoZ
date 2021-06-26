@@ -1,5 +1,4 @@
 package com.stardust.autojs.core.activity
-
 import android.accessibilityservice.AccessibilityService
 import android.app.AppOpsManager
 import android.app.usage.UsageStatsManager
@@ -16,9 +15,8 @@ import com.stardust.app.isOpPermissionGranted
 import com.stardust.autojs.core.util.Shell
 import com.stardust.view.accessibility.AccessibilityDelegate
 import java.util.regex.Pattern
-
 /**
- * Created by Stardust on 2017/3/9.
+ *
  */
 
 class ActivityInfoProvider(private val context: Context) : AccessibilityDelegate {
@@ -150,7 +148,6 @@ class ActivityInfoProvider(private val context: Context) : AccessibilityDelegate
             }
             usageStats.last().packageName
         }
-
     }
 
     private fun setLatestComponent(latestPackage: CharSequence?, latestClass: CharSequence?) {
@@ -192,6 +189,7 @@ class ActivityInfoProvider(private val context: Context) : AccessibilityDelegate
         private const val LOG_TAG = "ActivityInfoProvider"
     }
 }
+
 
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 private fun AccessibilityService.getWindow(windowId: Int): AccessibilityWindowInfo? {

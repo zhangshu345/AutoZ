@@ -20,7 +20,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 /**
- * Created by Stardust on 2017/2/2.
+ *
  */
 @EActivity(R.layout.activity_about)
 public class AboutActivity extends BaseActivity {

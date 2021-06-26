@@ -28,7 +28,7 @@ import butterknife.Optional;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 
 /**
- * Created by Stardust on 2017/10/19.
+ *
  */
 
 public class CommunityWebView extends EWebView {

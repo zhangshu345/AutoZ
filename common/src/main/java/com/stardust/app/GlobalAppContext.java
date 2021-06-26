@@ -12,7 +12,7 @@ import androidx.annotation.RequiresApi;
 import android.widget.Toast;
 
 /**
- * Created by Stardust on 2018/3/22.
+ *
  */
 
 public class GlobalAppContext {

@@ -8,7 +8,7 @@ import androidx.appcompat.widget.SearchView;
 import android.view.MenuItem;
 
 /**
- * Created by Stardust on 2017/10/25.
+ *
  */
 
 public class SearchViewItem implements MenuItemCompat.OnActionExpandListener, SearchView.OnQueryTextListener {

@@ -1,4 +1,3 @@
-
 module.exports = function(runtime, global){
     global.toast = function(text){
         runtime.toast(text);

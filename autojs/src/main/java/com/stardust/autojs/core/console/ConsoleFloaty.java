@@ -2,9 +2,7 @@ package com.stardust.autojs.core.console;
 
 import android.content.Context;
 import android.content.ContextWrapper;
-
 import androidx.annotation.Nullable;
-
 import android.content.res.ColorStateList;
 import android.os.Build;
 import android.text.TextUtils;
@@ -16,18 +14,18 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.stardust.app.GlobalAppContext;
-import com.stardust.enhancedfloaty.FloatyService;
-import com.stardust.enhancedfloaty.ResizableExpandableFloaty;
-import com.stardust.enhancedfloaty.ResizableExpandableFloatyWindow;
+
+import com.stardust.autojs.core.floaty.FloatyService;
+import com.stardust.autojs.core.floaty.ResizableExpandableFloaty;
+import com.stardust.autojs.core.floaty.ResizableExpandableFloatyWindow;
 import com.stardust.util.ScreenMetrics;
 import com.stardust.util.ViewUtil;
 import com.stardust.autojs.R;
 import com.stardust.util.ViewUtils;
 
 /**
- * Created by Stardust on 2017/4/20.
+ *
  */
 
 public class ConsoleFloaty extends ResizableExpandableFloaty.AbstractResizableExpandableFloaty {

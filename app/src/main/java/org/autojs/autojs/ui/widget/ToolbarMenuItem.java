@@ -16,7 +16,7 @@ import android.widget.TextView;
 import org.autojs.autojs.R;
 
 /**
- * Created by Stardust on 2017/1/29.
+ *
  */
 
 public class ToolbarMenuItem extends LinearLayout {

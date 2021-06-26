@@ -1,6 +1,6 @@
 package com.stardust.autojs.runtime.accessibility;
 
-import android.util.ArraySet;
+
 
 import com.stardust.util.DeveloperUtils;
 
@@ -11,7 +11,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * Created by Stardust on 2017/4/29.
+ *
  */
 
 public class AccessibilityConfig {
